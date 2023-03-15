@@ -4,7 +4,7 @@
 
 // Обратите внимание, что здесь приведена обобщенная инструкция по установке модулей системы {dv}. За более подробной инструкцией обратитесь к руководству администратора соответствующего устанавливаемого модуля.
 
-. Ознакомьтесь со списком требований к xref:requirements-software.adoc[программному] и xref:requirements-hardware.adoc[техническому] обеспечению, а также к xref:requirements-database.adoc[СУБД].
+. Ознакомьтесь со списком требований к xref:ROOT:requirements-software.adoc[программному] и xref:ROOT:requirements-hardware.adoc[техническому] обеспечению, а также к xref:ROOT:requirements-database.adoc[СУБД].
 . Выполните xref:pre-config-server.adoc[предварительную настройку]
 // xref:pre-config-server.adoc#preconfigureSystem[операционной системы] сервера {dv}, xref:pre-config-server.adoc#preconfigure-iis[IIS] и
 СУБД xref:pre-config-server.adoc#msSql[Microsoft SQL Server] или xref:pre-config-server.adoc#pgSql[PostgreSQL].
