@@ -1,1 +1,1 @@
-include::dev@platform:linux:preconfigure-server.adoc[]
+include::dev@platform:linux:pre-config-server.adoc[]
