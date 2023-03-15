@@ -1,0 +1,15 @@
+.xref:index.adoc[Руководство по установке {dv}]
+* xref:index.adoc[Общие сведения об установке]
+** xref:linux-limitations.adoc[]
+** xref:preconfigure-server.adoc[Предварительная настройка сервера]
+** xref:install-quick-ref.adoc[]
+** xref:install-platform.adoc[Установка модуля {pl}]
+** xref:install-other-linux.adoc[]
+** xref:install-other-windows.adoc[]
+** xref:post-config-server.adoc[]
+** xref:config-master.adoc[]
+** xref:install-client.adoc[]
+** xref:uninstall.adoc[]
+
+** Приложения
+*** xref:microsoft-postgre.adoc[]

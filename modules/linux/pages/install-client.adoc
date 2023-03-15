@@ -1,0 +1,1 @@
+include::dev@platform:linux:install-client.adoc[]

@@ -1,5 +1,6 @@
 name: installguide
-version: ~
+version: 'dev'
+prerelease: true
 title: Установка системы
 asciidoc:
   attributes:
@@ -15,11 +16,16 @@ asciidoc:
     to-v: '5.5.2'
     win-v: '5.5.4'
     worker-v: '5.5.2'
-    serv-1: '2012'
-    serv-2: '2012 R2'
-    serv-3: '2016'
-    serv-4: '2019'
-    serv-demo: 'Windows 8/8.1 (64-разрядная) или Windows 10 (64-разрядная)'
+    w-1: '2012'
+    w-2: '2012 R2'
+    w-3: '2016'
+    w-4: '2019'
+    w-demo: 'Windows 8/8.1 (64-разрядная) или Windows 10 (64-разрядная)'
+    l-1: '1.7'
+    l-2: '22.04 (LTS)'
+    l-3: '20.04 (LTS)'
+    l-4: '11 (stable)'
+    l-5: '10 (oldstable)'
     asp: 'ASP.NET 4.0@'
     net-v1: '4.7.2'
     net-v2: '3.5 SP1'
@@ -27,5 +33,5 @@ asciidoc:
 
 nav:
 - modules/ROOT/install.adoc
-
+- modules/linux/linux.adoc
 #  start_page: ROOT:index.adoc

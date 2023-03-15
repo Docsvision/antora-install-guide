@@ -1,0 +1,1 @@
+include::dev@platform:linux:install-other-linux.adoc[]
