@@ -1,7 +1,7 @@
 .xref:index.adoc[Руководство по установке {dv}]
 * xref:index.adoc[Общие сведения об установке]
 ** xref:linux-limitations.adoc[]
-** xref:preconfigure-server.adoc[Предварительная настройка сервера]
+** xref:pre-config-server.adoc[Предварительная настройка сервера]
 ** xref:install-quick-ref.adoc[]
 ** xref:install-platform.adoc[Установка модуля {pl}]
 ** xref:install-other-linux.adoc[]
