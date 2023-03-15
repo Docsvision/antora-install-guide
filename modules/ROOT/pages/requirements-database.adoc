@@ -1,1 +1,1 @@
-include::dev@platform:ROOT:page$requirements-database.adoc[]
+include::platform:ROOT:page$requirements-database.adoc[]

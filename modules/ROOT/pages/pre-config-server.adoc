@@ -1,6 +1,6 @@
-include::dev@platform:admin:partial$preconfigure-server.adoc[]
+include::platform:admin:partial$preconfigure-server.adoc[]
 
 .См. также:
-- xref:dev@platform:ROOT:requirements-server-account.adoc[]
-- xref:dev@platform:ROOT:requirements-full-text-account.adoc[]
-- xref:dev@platform:ROOT:requirements-file-service-account.adoc[]
+- xref:platform:ROOT:requirements-server-account.adoc[]
+- xref:platform:ROOT:requirements-full-text-account.adoc[]
+- xref:platform:ROOT:requirements-file-service-account.adoc[]

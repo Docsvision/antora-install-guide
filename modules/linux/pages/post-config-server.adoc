@@ -1,1 +1,1 @@
-include::dev@platform:linux:post-config-server.adoc[]
+include::platform:linux:post-config-server.adoc[]

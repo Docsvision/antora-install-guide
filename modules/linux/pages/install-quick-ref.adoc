@@ -5,9 +5,9 @@
 // Обратите внимание, что здесь приведена обобщенная инструкция по установке модулей системы {dv}. За более подробной инструкцией обратитесь к руководству администратора соответствующего устанавливаемого модуля.
 
 . Ознакомьтесь со списком требований к xref:requirements-software.adoc[программному] и xref:requirements-hardware.adoc[техническому] обеспечению, а также к xref:requirements-database.adoc[СУБД].
-. Выполните xref:preconfigure-server.adoc[предварительную настройку]
-// xref:preconfigure-server.adoc#preconfigureSystem[операционной системы] сервера {dv}, xref:preconfigure-server.adoc#preconfigure-iis[IIS] и
-СУБД xref:preconfigure-server.adoc#msSql[Microsoft SQL Server] или xref:preconfigure-server.adoc#pgSql[PostgreSQL].
+. Выполните xref:pre-config-server.adoc[предварительную настройку]
+// xref:pre-config-server.adoc#preconfigureSystem[операционной системы] сервера {dv}, xref:pre-config-server.adoc#preconfigure-iis[IIS] и
+СУБД xref:pre-config-server.adoc#msSql[Microsoft SQL Server] или xref:pre-config-server.adoc#pgSql[PostgreSQL].
 . Установите на Linux сначала модуль xref:install-platform.adoc[{pl}], а затем xref:install-other-linux.adoc[установите] другие базовые модули.
 +
 WARNING: Модуль {pl} всегда должен устанавливаться в первую очередь.
