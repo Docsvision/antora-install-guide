@@ -1,1 +1,1 @@
-include::platform:linux:install-client.adoc[]
+include::dev@platform:linux:install-client.adoc[]

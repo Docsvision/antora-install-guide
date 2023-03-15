@@ -1,1 +1,1 @@
-include::platform:ROOT:page$requirements-hardware.adoc[]
+include::dev@platform:ROOT:page$requirements-hardware.adoc[]
