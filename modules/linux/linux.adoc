@@ -10,6 +10,7 @@
 ** xref:config-master.adoc[]
 ** xref:install-client.adoc[]
 ** xref:uninstall.adoc[]
+** xref:activation.adoc[]
 
 ** Приложения
 *** xref:microsoft-postgre.adoc[]

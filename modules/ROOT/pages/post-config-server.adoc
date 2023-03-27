@@ -46,7 +46,7 @@
 
 Требования учетных записей сервисов {dv} приведены в пункте xref:dev@platform:ROOT:requirements-server-account.adoc[по ссылке].
 
-Рекомендуется xref:dev@platform:admin:manage-licenses.adoc#personalLicense[назначить] учетным записям сервиса полнотекстового индексирования и СУБП персональную лицензию.
+Рекомендуется xref:platform:console:manage-licenses.adoc#personalLicense[назначить] учетным записям сервиса полнотекстового индексирования и СУБП персональную лицензию.
 ====
 
 Служба {ws}::
