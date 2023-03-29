@@ -1,5 +1,6 @@
 .xref:index.adoc[Руководство по установке {dv} на Linux]
-* xref:index.adoc[Общие сведения об установке]
+* xref:index.adoc[Сведения об установке на Linux]
+** Требования
 ** xref:linux-limitations.adoc[]
 ** xref:pre-config-server.adoc[Предварительная настройка сервера]
 ** xref:install-quick-ref.adoc[]

@@ -1,5 +1,5 @@
 .xref:index.adoc[Руководство по установке {dv}]
-* xref:index.adoc[Общие сведения об установке]
+* xref:index.adoc[Сведения об установке на Windows]
 
 ** Требования
 *** xref:requirements-software.adoc[Необходимое программное обеспечение]
@@ -17,4 +17,3 @@
 *** xref:install-client.adoc[]
 **** xref:gpo-guide.adoc[]
 *** xref:uninstall-docsvision.adoc[Удаление системы {dv}]
-** Активация
