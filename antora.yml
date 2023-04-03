@@ -1,7 +1,8 @@
 name: installguide
-version: 'dev'
+version: '5.5.5'
+display_version: 'dev'
 prerelease: true
-title: Установка системы
+title: Установка системы на Linux
 asciidoc:
   attributes:
     os-1: '7 SP 1 (Enterprise, Professional, Ultimate)'
