@@ -89,7 +89,7 @@ image::installguide::config-sql-create.png[Создание новой БД че
 +
 * Не используйте кириллицу, пробелы и спецсимволы в имени БД.
 * Для БД Microsoft SQL Server в поле _Язык_ выберите локаль БД, установленную в параметре `Server Collation ()` экземпляра Microsoft SQL Server. Рекомендуемое значение: Русский (Cyrillic_General_CI_AS).
-* При выборе СУБД Microsoft SQL Server также можно настроить сателлитные БД. Больше информации о сателлитных БД xref:6.1@platform:console:db-satellite.adoc[по ссылке].
+* При выборе СУБД Microsoft SQL Server также можно настроить сателлитные БД. Больше информации о сателлитных БД xref:5.5.5@platform:console:db-satellite.adoc[по ссылке].
 +
 WARNING: После создания БД изменять конфигурацию сателлитных БД не рекомендуется. Это может привести к потере данных.
 +
