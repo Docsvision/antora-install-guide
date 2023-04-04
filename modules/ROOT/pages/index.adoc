@@ -10,14 +10,14 @@
 Полная инструкция по установке и настройке каждого модуля приведена в документации по администрированию соответствующего модуля.
 
 .Инструкция актуальна для следующих версий модулей {dv}:
-- {dv} 5. {pl} версии {pl-v}.
-- {dv} 5. Служба {ws} версии {worker-v}.
-- {dv} 5. {bo} версии {bo-v}.
-- {dv} 5. {wf} версии {wf-v}.
-- {dv} 5. {dm} версии {dm-v}.
-- {dv} 5. {ad} версии {ad-v}.
-- {dv} 5. {to} версии {to-v}.
-- {dv} 5. {wincl} версии {win-v}.
+- {dv} {pl} версии {pl-v}.
+- {dv} Служба {ws} версии {worker-v}.
+- {dv} {bo} версии {bo-v}.
+- {dv} {wf} версии {wf-v}.
+- {dv} {dm} версии {dm-v}.
+- {dv} {ad} версии {ad-v}.
+- {dv} {to} версии {to-v}.
+- {dv} {wincl} версии {win-v}.
 
 Система {dv} предназначена для автоматизации управления документами и бизнес-процессами компании.
 
@@ -78,56 +78,56 @@
 // @enduml
 // ....
 
-.Модули {dv}
-[plantuml, svg]
-....
-@startuml
-left to right direction
-
-package "Базовые модули" as base {
-
-["Платформа"] as platform
-["Базовые объекты"] as baseobjects
-["Управление процессами"] as workflow
-["Управление документами"] as documentmanagement
-["Конструктор согласований"] as approvaldesigner
-["Делопроизводство 4.5"] as takeoffice
-["Windows-клиент"] as windowsclient
-["Служба фоновых операций"] as workerservice
-}
-
-[baseobjects] -- [platform]
-[workflow] -- [platform]
-[takeoffice] -- [platform]
-[windowsclient] -- [platform]
-[documentmanagement] -- [platform]
-[approvaldesigner] -- [platform]
-[workerservice] -- [platform]
-
-package "Дополнительные модули" as additional {
-
-["Web-клиент"] as webclient
-["Другие модули"] as other
-}
-
-platform -[hidden]-> baseobjects
-platform -[hidden]-> workflow
-platform -[hidden]-> takeoffice
-platform -[hidden]-> windowsclient
-platform -[hidden]-> documentmanagement
-platform -[hidden]-> approvaldesigner
-platform -[hidden]-> workerservice
-
-package "Дополнительные модули" as additional {
-
-["Web-клиент"] as webclient
-["Другие модули"] as other
-}
-
-base -down-> additional
-
-@enduml
-....
+// .Модули {dv}
+// [plantuml, svg]
+// ....
+// @startuml
+// left to right direction
+//
+// package "Базовые модули" as base {
+//
+// ["Платформа"] as platform
+// ["Базовые объекты"] as baseobjects
+// ["Управление процессами"] as workflow
+// ["Управление документами"] as documentmanagement
+// ["Конструктор согласований"] as approvaldesigner
+// ["Делопроизводство 4.5"] as takeoffice
+// ["Windows-клиент"] as windowsclient
+// ["Служба фоновых операций"] as workerservice
+// }
+//
+// [baseobjects] -- [platform]
+// [workflow] -- [platform]
+// [takeoffice] -- [platform]
+// [windowsclient] -- [platform]
+// [documentmanagement] -- [platform]
+// [approvaldesigner] -- [platform]
+// [workerservice] -- [platform]
+//
+// package "Дополнительные модули" as additional {
+//
+// ["Web-клиент"] as webclient
+// ["Другие модули"] as other
+// }
+//
+// platform -[hidden]-> baseobjects
+// platform -[hidden]-> workflow
+// platform -[hidden]-> takeoffice
+// platform -[hidden]-> windowsclient
+// platform -[hidden]-> documentmanagement
+// platform -[hidden]-> approvaldesigner
+// platform -[hidden]-> workerservice
+//
+// package "Дополнительные модули" as additional {
+//
+// ["Web-клиент"] as webclient
+// ["Другие модули"] as other
+// }
+//
+// base -down-> additional
+//
+// @enduml
+// ....
 
 .К базовым модулям относятся:
 * {pl} -- центральное звено модульной структуры {dv}.
