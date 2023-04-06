@@ -1,6 +1,6 @@
 name: installguide
-version: '5.5.5'
-display_version: 'dev'
+version: 'dev'
+#display_version: 'dev'
 prerelease: true
 title: Установка системы на Windows
 asciidoc:
