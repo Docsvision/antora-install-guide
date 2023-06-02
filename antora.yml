@@ -22,15 +22,7 @@ asciidoc:
     serv-3: '2016'
     serv-4: '2019'
     serv-demo: 'Windows 8/8.1 (64-разрядная) или Windows 10 (64-разрядная)'
-    l-1: '1.7'
-    l-2: '22.04 (LTS)'
-    l-3: '20.04 (LTS)'
-    l-4: '11 (stable)'
-    l-5: '10 (oldstable)'
-    w-client-1: '7 SP 1 (Enterprise, Professional, Ultimate)'
-    w-client-2: '8/8.1 (Pro, Enterprise)footnote:[Работа в ОС Windows 8 поддерживается только в режиме "Рабочего стола". Работа в режиме Metro, в том числе в Metro-Internet Explorer, не поддерживается.]'
-    w-client-3: '10 (Pro, Enterprise)'
-    w-client-4: '11 (Pro, Enterprise)'
+    asp: 'ASP.NET 4.0@'
     net-v1: '4.7.2'
     net-v2: '3.5 SP1'
     iis: 'IIS версий 7.5, 8.0, 8.5 или 10'
@@ -38,5 +30,5 @@ asciidoc:
 
 nav:
 - modules/ROOT/install.adoc
-- modules/linux/linux.adoc
+
 #  start_page: ROOT:index.adoc
