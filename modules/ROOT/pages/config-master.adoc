@@ -1,1 +1,2 @@
+// Это вообще неправильно. Надо что-то другое иклудить
 include::5.5.5@platform:admin:partial$config-master.adoc[]
