@@ -8,6 +8,7 @@
 
 ** Установка {dv}
 *** xref:pre-config-server.adoc[Предварительная настройка сервера]
+*** xref:pre-config-db.adoc[]
 *** xref:install-quick-ref.adoc[]
 *** xref:install-platform-server.adoc[Установка серверной части модуля {pl}]
 *** xref:install-other-server.adoc[]
