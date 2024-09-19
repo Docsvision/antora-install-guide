@@ -1,4 +1,4 @@
-.xref:index.adoc[Руководство по установке {dv}]
+.xref:index.adoc[Установка системы на Windows]
 * xref:index.adoc[]
 
 * xref:requirements.adoc[]
