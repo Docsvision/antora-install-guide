@@ -1,6 +1,5 @@
-include::5.5.5@platform:admin:partial$preconfigure-server.adoc[]
+= Предварительная настройка сервера Windows
 
-.См. также:
-- xref:5.5.5@platform:ROOT:requirements-server-account.adoc[]
-- xref:5.5.5@platform:ROOT:requirements-full-text-account.adoc[]
-- xref:5.5.5@platform:ROOT:requirements-file-service-account.adoc[]
+// tag::preconfig[]
+. Установите {asp-bundle}, доступно на https://dotnet.microsoft.com/en-us/download/dotnet/[сайте Microsoft].
+// end::preconfig[]
